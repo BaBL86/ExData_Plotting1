@@ -35,7 +35,7 @@ hpcinterested$datetime<-as.POSIXct(hpcinterested$datetime, "%Y-%m-%d %H:%M:%s", 
 
 # Create plot with type = line.
 plot(hpcinterested$datetime, hpcinterested$Global_active_power,
-     col="black", bg="black",
+     col="black",
      type="l",
      xlab="",
      ylab="Global Active Power (kilowatts)",
