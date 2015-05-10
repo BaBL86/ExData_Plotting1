@@ -6,8 +6,7 @@ library('data.table')
 library('dplyr')
 
 # File with data
-# hpcfile <- 'household_power_consumption.txt'
-hpcfile <- 'hpc.txt'
+hpcfile <- 'household_power_consumption.txt'
 
 # Load data from CSV file with settings
 hpcdata<-data.table(read.csv(file=hpcfile, 
